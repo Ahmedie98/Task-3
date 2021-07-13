@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 	<script src="jscript.js"></script>
+
+
+<title> Buttons </title>
+  <link rel="stylesheet" href="CSS\style.css">
+</head>
+<body>
+
+<center>
+  <div class="header">
+  <h1>Robot Remote Controller</h1>
+</div>
+
+
+  <iframe name="dummyframe" id="dummyframe" style="display: none;"></iframe>
+
+ <form action="remote.php" method="post">
+
+ <div class = "buttonContainer">
+
+<br><br>
+
+<div >
+   <input type="submit" class = "Forward" value="Forward" name="forward"  id="forward">
+ </div>
+<br><br>
+<div >
+<input type="submit" class = "Left" value="Left" name="left1"   id="left1">
+<input type="submit" class = "Stop" value="Stop" name="stop"   id="Stop">
+
+<input type="submit" class = "Right" value="Right"name="right1" id="right1">
+</div>
+<br><br>
+
+<div >
+<input type="submit" class="Backward" value="Backward" name="backward"  id="backward">
+</div>
+
+
+
+    </div>
+ </form>
+</center>
+<script>
+  window.watsonAssistantChatOptions = {
+      integrationID: "95c829ce-3911-4fb3-a46a-6cad5b64db3e", // The ID of this integration.
+      region: "eu-gb", // The region your integration is hosted in.
+      serviceInstanceID: "199fe004-5d98-4526-9dc9-2a45b6b5529d", // The ID of your service instance.
+      onLoad: function(instance) { instance.render(); }
+    };
+  setTimeout(function(){
+    const t=document.createElement('script');
+    t.src="https://web-chat.global.assistant.watson.appdomain.cloud/loadWatsonAssistantChat.js";
+    document.head.appendChild(t);
+  });
+</script>
+</body>
+
+</html>

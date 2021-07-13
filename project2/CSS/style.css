@@ -1,0 +1,159 @@
+*{
+	padding:0px;
+	margin:0px;
+}
+form{
+	width: 40%;
+	margin:0px auto;
+	padding:20px;
+	border: 1px solid #B0C4DE;
+	background: white;
+	border-radius: 0px 0px 10px 10px;
+
+}
+
+/* Style the body */
+body {
+  font-family: Arial;
+  margin: 0;
+}
+
+/* Header/Logo Title */
+.header {
+  padding: 60px;
+  text-align: center;
+  background: #1abc9c;
+  color: white;
+  font-size: 30px;
+}
+
+*{
+	padding:0px;
+	margin:0px;
+}
+form{
+	width: 50%;
+	margin:0px auto;
+	padding:20px;
+	border: 1px solid #46ebae;
+	background: white;
+	border-radius: 0px 0px 10px 10px;
+
+}
+body
+{
+	font-size:100%;
+	background: #f0fff2
+
+}
+.header{
+	width:50%;
+	margin:40px auto 0px;
+	color:white;
+	background:  #bbc18a;
+	text-align: center;
+	border: 1px solid #46ebae;
+	border-bottom: none;
+	border-radius: 10px 10px 0px 0px;
+	padding:20px;
+}
+.Backward{
+text-decoration: none;
+border: #b1deb3 3px solid;
+text-shadow:0px 1px 0px #28663b;
+padding: 10px 10px;
+color: #FFFFFF;
+background: #bbc18a;
+border-radius:15px ;
+font-size: 20px;
+line-height: 1em;
+height: 50px;
+width:39%;
+
+}
+.Backward:hover {
+	background:linear-gradient(to bottom, #4a9e47 7%, #76c284 100%);
+	background-color:#b1deb3;
+}
+.Backward:active {
+	position:relative;
+	top:0px;
+}
+
+.Forward{
+height: 50px;
+width:40%;
+text-decoration: none;
+border: #b1deb3 3px solid;
+text-shadow:0px 1px 0px #126956;
+padding: 5px 17px;
+color: #FFFFFF;
+background:  #bbc18a;
+border-radius:15px ;
+font-size: 20px;
+line-height: 1.5em;
+
+}
+.Forward:hover {
+	background:linear-gradient(to bottom, #4a9e47 7%, #76c284 100%);
+	background-color:#b1deb3;
+}
+.Forward:active {
+	position:relative;
+top:1px;}
+
+.Right{
+text-decoration: none;
+border: #b1deb3 3px solid;
+text-shadow:0px 1px 0px #126956;
+padding: 5px 15px;
+color: #FFFFFF;
+background: #bbc18a;
+border-radius:15px ;
+font-size: 20px;
+ margin:30px;
+}
+.Right:hover {
+	background:linear-gradient(to bottom, #4a9e47 7%, #76c284 100%);
+	background-color:#b1deb3;
+}
+.Right:active {
+	position:relative;
+top:1px;}
+
+.Left{
+text-decoration: none;
+border: #b1deb3 3px solid;
+text-shadow:0px 1px 0px #126956;
+padding: 5px 15px;
+color: #FFFFFF;
+background:  #bbc18a;
+border-radius: 15px ;
+font-size: 20px;
+ margin:35px;
+}
+.Left:hover {
+	background:linear-gradient(to bottom, #4a9e47 7%, #76c284 100%);
+	background-color:#b1deb3;
+}
+.Left:active {
+	position:relative;
+top:1px;}
+
+.Stop{
+	text-decoration: none;
+border: #b1deb3 3px solid;
+text-shadow:0px 1px 0px #126956;
+padding: 5px 17px;
+color: #FFFFFF;
+background: #bbc18a;
+border-radius: 15px;
+font-size: 20px;
+}
+.Stop:hover {
+	background:linear-gradient(to bottom, #4a9e47 7%, #76c284 100%);
+	background-color:#b1deb3;
+}
+.Stop:active {
+	position:relative;
+top:1px;}
